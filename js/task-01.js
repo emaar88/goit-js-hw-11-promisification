@@ -1,7 +1,6 @@
 const delay = ms => {
-  // Твой код
   return new Promise(resolve => {
-    setTimeout(() => resolve(ms));
+    setTimeout(() => resolve(ms), ms);
   });
 };
 
